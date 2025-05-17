@@ -15,6 +15,8 @@ if __name__ == '__main__':
     print(car_nums)
     del car_nums[1]
     print(car_nums)
-    car_nums1 = ['B0001','B0002','B003']
-    car_nums2 = car_nums + car_nums1
+    # car_nums1 = ['B0001','B0002','B003']
+    # car_nums2 = car_nums + car_nums1
+    # print(car_nums2)
+    car_nums2 = car_nums + ['B0001','B0002','B003']
     print(car_nums2)
